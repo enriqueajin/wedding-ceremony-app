@@ -55,3 +55,19 @@ p {
   height: 100%;
   object-fit: cover;
 }
+
+/* Introduction section */
+.introduction-title {
+  font-family: "josephsophia";
+  font-size: 3em;
+}
+.introduction-desc {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 25px;
+  font-size: 1.1em;
+}
+.introduction-verse {
+  font-style: italic;
+}
