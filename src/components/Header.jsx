@@ -5,11 +5,10 @@ export default function Header() {
     return (
         <>
             <Box className="header-container">
-                <img className="header-image" src="../header.jpg" />
-            </Box>
-            <Box className="main-title">
-                <p className="our-wedding">Nuestra boda</p>
-                <p className="spouses-names">Carlos Ajin y Diana Guillén</p>
+                <Box className="main-title">
+                    <p className="our-wedding">Nuestra boda</p>
+                    <p className="spouses-names">Carlos Ajin y Diana Guillén</p>
+                </Box>
             </Box>
             <br />
             <br />
