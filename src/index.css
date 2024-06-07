@@ -17,3 +17,15 @@ code {
    url("./fonts/josephsophia.ttf") format("truetype");
   font-weight: normal;
  }
+ @font-face {
+  font-family: "nexaheavy";
+  src: local("nexaheavy"),
+   url("./fonts/nexaheavy.ttf") format("truetype");
+  font-weight: normal;
+ }
+ @font-face {
+  font-family: "nexaextralight";
+  src: local("nexaextralight"),
+   url("./fonts/nexaextralight.ttf") format("truetype");
+  font-weight: normal;
+ }

@@ -3,6 +3,7 @@ import "../styles.css";
 import Header from "../components/Header";
 import Introduction from "../components/Introduction";
 import CountDownTimer from "../components/CountDownTimer";
+import Ceremony from "../components/Ceremony";
 
 export default function Invitation() {
     return (
@@ -10,6 +11,7 @@ export default function Invitation() {
             <Header />
             <Introduction />
             <CountDownTimer />
+            <Ceremony />
         </Box>
     )
 }
