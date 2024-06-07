@@ -37,6 +37,12 @@ export default function Ceremony() {
                 }}>
                 VER UBICACIÓN
             </Button>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </>
     )
 }
