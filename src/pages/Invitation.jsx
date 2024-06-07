@@ -5,6 +5,7 @@ import Introduction from "../components/Introduction";
 import CountDownTimer from "../components/CountDownTimer";
 import Ceremony from "../components/Ceremony";
 import DressCode from "../components/DressCode";
+import PhotoGallery from "../components/PhotoGallery";
 
 export default function Invitation() {
     return (
@@ -14,6 +15,7 @@ export default function Invitation() {
             <CountDownTimer />
             <Ceremony />
             <DressCode />
+            <PhotoGallery />
         </Box>
     )
 }

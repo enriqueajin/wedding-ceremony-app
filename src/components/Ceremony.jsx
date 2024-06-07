@@ -1,6 +1,17 @@
 import { Box, Button, Divider } from "@mui/material";
 
 export default function Ceremony() {
+    
+    const buttonStyle = { 
+        backgroundColor: "#8c9c6d",
+        borderRadius: 5,
+        paddingLeft: 25,
+        paddingRight: 25,
+        paddingTop: 10,
+        paddingBottom: 10,
+        fontFamily: "nexaextralight"
+    }
+
     return(
         <>
             <Box className="rings-icon-container">
@@ -26,17 +37,7 @@ export default function Ceremony() {
             <p className="ceremony-address">CC. Paseo Cayalá, Nivel 1, Local A4-114 zona 16</p>
             <br />
             <br />
-            <Button variant="contained" href="https://maps.app.goo.gl/RKfQ4BGUi8fUBgT37" style={{ 
-                backgroundColor: "#8c9c6d",
-                borderRadius: 5,
-                paddingLeft: 25,
-                paddingRight: 25,
-                paddingTop: 10,
-                paddingBottom: 10,
-                fontFamily: "nexaextralight"
-                }}>
-                VER UBICACIÓN
-            </Button>
+            <Button variant="contained" href="https://maps.app.goo.gl/RKfQ4BGUi8fUBgT37" target="_blank" style={buttonStyle}>VER UBICACIÓN</Button>
             <br />
             <br />
             <br />

@@ -2,10 +2,19 @@ import { Box } from "@mui/material";
 import "../styles.css";
 
 export default function Header() {
+
+    const headerHeight = {
+        height: {
+            xs: '400px', 
+            sm: '470px', 
+            md: '530px'
+        }
+    }
+
     return (
         <>
             <Box className="header-container">
-                <Box className="main-title">
+                <Box className="main-title" sx={headerHeight}>
                     <p className="our-wedding">Nuestra boda</p>
                     <p className="spouses-names">Carlos Ajin y Diana Guillén</p>
                 </Box>

@@ -10,6 +10,12 @@ export default function DressCode() {
             <p className="ceremony-title">DRESSCODE</p>
             <br />
             <p className="dresscode-text">Semiformal</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </>
     )
 }
