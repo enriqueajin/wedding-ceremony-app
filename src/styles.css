@@ -163,3 +163,24 @@ p {
   text-align: center;
   padding: 0 25px;
 }
+
+/* Attendance section */
+.attendance-title {
+  font-family: "nexaheavy";
+  font-size: 1.8em;
+  padding: 0 25px;
+  text-align: center;
+}
+.attendance-desc {
+  padding: 0 50px;
+  text-align: center;
+  line-height: 25px;
+}
+.attendance-validity-container {
+  display: flex;
+}
+.validity-text {
+  font-family: "nexaheavy";
+  font-size: 1.3em;
+  text-align: center;
+}

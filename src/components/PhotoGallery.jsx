@@ -77,6 +77,10 @@ export default function PhotoGallery() {
                     />
                 </Grid>
             </Grid>
+            <br />
+            <br />
+            <br />
+            <br />
         </>
     )
 }
