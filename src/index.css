@@ -29,3 +29,15 @@ code {
    url("./fonts/nexaextralight.ttf") format("truetype");
   font-weight: normal;
  }
+ @font-face {
+  font-family: "antaradistance";
+  src: local("antaradistance"),
+   url("./fonts/antaradistance.ttf") format("truetype");
+  font-weight: normal;
+ }
+ @font-face {
+  font-family: "miltononebold";
+  src: local("miltononebold"),
+   url("./fonts/miltononebold.otf") format("truetype");
+  font-weight: normal;
+ }

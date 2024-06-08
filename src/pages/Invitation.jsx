@@ -8,6 +8,7 @@ import DressCode from "../components/DressCode";
 import PhotoGallery from "../components/PhotoGallery";
 import Attendance from "../components/Attendance";
 import { useEffect, useState } from "react";
+import Footer from "../components/Footer";
 
 export default function Invitation() {
 
@@ -38,6 +39,7 @@ export default function Invitation() {
             <DressCode />
             <PhotoGallery />
             <Attendance guests={guests}/>
+            <Footer />
         </Box>
     )
 }
