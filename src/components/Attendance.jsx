@@ -12,7 +12,9 @@ import {
     DialogTitle,
     DialogContent,
     DialogActions,
-    DialogContentText
+    DialogContentText,
+    Backdrop,
+    CircularProgress
 } from "@mui/material";
 import { useState } from "react";
 import instance from "../axiosClient";
@@ -27,7 +29,8 @@ const Attendance = (props) => {
     }) 
 
     const [errorMessage, setErrorMessage] = useState('');
-    const [openErrorDialog, setOpenErrorDialog] = useState(false)
+    const [openErrorDialog, setOpenErrorDialog] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleOpenErrorDialog = () => {
         setOpenErrorDialog(true);
@@ -35,6 +38,14 @@ const Attendance = (props) => {
 
     const handleCloseErrorDialog = () => {
         setOpenErrorDialog(false)
+    }
+
+    const handleLoadingStart = () => {
+        setIsLoading(true);
+    }
+
+    const handleLoadingEnd = () => {
+        setIsLoading(false)
     }
 
     const emptyFields = () => {
@@ -83,6 +94,8 @@ const Attendance = (props) => {
     const guestList = getGuestsQuantityList(guests)
 
     const sendAttendance = async () => {
+        handleLoadingStart();
+
         const request = {
             is_attending: true,
             name: formData.name,
@@ -97,6 +110,7 @@ const Attendance = (props) => {
             data: request
 
         }).then((res) => {
+            handleLoadingEnd();
             console.log(res);
 
         }).catch((e) => {
@@ -223,6 +237,8 @@ const Attendance = (props) => {
                 ENVIAR RESPUESTA
             </Button>
             </Box>
+
+            {/* Error dialog */}
             <Dialog
                 open={openErrorDialog}
                 onClose={handleCloseErrorDialog}
@@ -237,6 +253,14 @@ const Attendance = (props) => {
                     </DialogActions>
                 </DialogContent>
             </ Dialog>
+
+            {/* Backdrop loader */}
+            <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={isLoading}
+                onClick={handleLoadingEnd}>
+                <CircularProgress color="inherit" />
+            </Backdrop>
         </>
     )
 }
