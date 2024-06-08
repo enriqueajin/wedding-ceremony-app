@@ -29,7 +29,9 @@ const Attendance = (props) => {
     }) 
 
     const [errorMessage, setErrorMessage] = useState('');
+    const [responseMessage, setResponseMessage] = useState('');
     const [openErrorDialog, setOpenErrorDialog] = useState(false);
+    const [openResponseDialog, setOpenResponseDialog] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
 
     const handleOpenErrorDialog = () => {
@@ -38,6 +40,14 @@ const Attendance = (props) => {
 
     const handleCloseErrorDialog = () => {
         setOpenErrorDialog(false)
+    }
+
+    const handleOpenResponseDialog = () => {
+        setOpenResponseDialog(true);
+    }
+
+    const handleCloseResponseDialog = () => {
+        setOpenResponseDialog(false)
     }
 
     const handleLoadingStart = () => {
@@ -111,9 +121,12 @@ const Attendance = (props) => {
 
         }).then((res) => {
             handleLoadingEnd();
+            setResponseMessage('¡Gracias por tu confirmación!')
+            handleOpenResponseDialog();
             console.log(res);
 
         }).catch((e) => {
+            setResponseMessage('Ha ocurrido un error. Por favor intenta de nuevo.')
             console.log(e);
         })
     }
@@ -250,6 +263,22 @@ const Attendance = (props) => {
                     </DialogContentText>
                     <DialogActions>
                         <Button onClick={handleCloseErrorDialog}>Aceptar</Button>
+                    </DialogActions>
+                </DialogContent>
+            </ Dialog>
+
+            {/* Response dialog */}
+            <Dialog
+                open={openResponseDialog}
+                onClose={handleCloseResponseDialog}
+            >
+                <DialogTitle>Resultado</DialogTitle>
+                <DialogContent>
+                    <DialogContentText>
+                        {responseMessage}
+                    </DialogContentText>
+                    <DialogActions>
+                        <Button onClick={handleCloseResponseDialog}>Aceptar</Button>
                     </DialogActions>
                 </DialogContent>
             </ Dialog>
