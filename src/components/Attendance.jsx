@@ -15,6 +15,7 @@ import {
     DialogContentText
 } from "@mui/material";
 import { useState } from "react";
+import instance from "../axiosClient";
 
 const Attendance = (props) => {
     const {guests} = props
@@ -81,8 +82,26 @@ const Attendance = (props) => {
 
     const guestList = getGuestsQuantityList(guests)
 
-    const sendAttendance = () => {
-        console.log("todo piola kek")
+    const sendAttendance = async () => {
+        const request = {
+            is_attending: true,
+            name: formData.name,
+            attendees_quantity: formData.attendeesQuantity,
+            message: formData.message,
+            type: "Civil"
+        }
+
+        await instance({
+            url: `/attendees`,
+            method: "POST",
+            data: request
+
+        }).then((res) => {
+            console.log(res);
+
+        }).catch((e) => {
+            console.log(e);
+        })
     }
 
     const handleFormSubmission = (e) => {
