@@ -26,7 +26,7 @@ export default function Invitation() {
         } catch(error) {
             guests = 0;
         }
-        setGuets(guests )
+        setGuets(guests)
     }, [])
 
     return (    

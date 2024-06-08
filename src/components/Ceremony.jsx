@@ -37,7 +37,13 @@ export default function Ceremony() {
             <p className="ceremony-address">CC. Paseo Cayalá, Nivel 1, Local A4-114 zona 16</p>
             <br />
             <br />
-            <Button variant="contained" href="https://maps.app.goo.gl/RKfQ4BGUi8fUBgT37" target="_blank" style={buttonStyle}>VER UBICACIÓN</Button>
+            <Button 
+                variant="contained"
+                href="https://maps.app.goo.gl/RKfQ4BGUi8fUBgT37" 
+                target="_blank" 
+                style={buttonStyle}>
+                VER UBICACIÓN
+            </Button>
             <br />
             <br />
             <br />

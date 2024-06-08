@@ -6,7 +6,7 @@ export default function App() {
   return(
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Invitation />}>,</Route>
+        <Route path="/" element={<Invitation />}></Route>
       </Routes>
     </BrowserRouter>
   )

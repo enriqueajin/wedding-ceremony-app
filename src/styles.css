@@ -184,3 +184,8 @@ p {
   font-size: 1.3em;
   text-align: center;
 }
+.attendance-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
