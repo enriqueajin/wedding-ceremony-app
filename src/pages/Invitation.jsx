@@ -9,6 +9,9 @@ import PhotoGallery from "../components/PhotoGallery";
 import Attendance from "../components/Attendance";
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
+import smallBg from "../assets/bg-mobile.jpg"
+import mediumBg from "../assets/bg-tablet.jpg"
+import largeBg from "../assets/bg-desktop.jpg"
 
 export default function Invitation() {
 
@@ -30,8 +33,16 @@ export default function Invitation() {
         setGuets(guests)
     }, [])
 
+    const bgImage = {
+        backgroundImage: {
+            xs: `url(${smallBg})`, 
+            sm: `url(${mediumBg})`, 
+            md: `url(${largeBg})`
+        }
+    }
+
     return (    
-        <Box className="main-container">
+        <Box className="main-container" sx={bgImage}>
             <Header />
             <Introduction />
             <CountDownTimer />

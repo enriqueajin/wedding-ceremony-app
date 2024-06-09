@@ -1,4 +1,9 @@
 import { Box, Grid } from "@mui/material";
+import photo1 from "../assets/photo1.jpg"
+import photo2 from "../assets/photo2.jpg"
+import photo3 from "../assets/photo3.jpg"
+import photo4 from "../assets/photo4.jpg"
+import mainPhoto from "../assets/mainphoto.jpg"
 
 export default function PhotoGallery() {
 
@@ -18,7 +23,7 @@ export default function PhotoGallery() {
         width: {
             xs: '100%', 
             sm: '100%', 
-            md: '80%'
+            md: '60%'
         },
         padding: 2
     }
@@ -30,7 +35,7 @@ export default function PhotoGallery() {
                 <Grid item xs={6}>
                     <Box 
                         component="img" 
-                        src="../assets/photo1.jpg" 
+                        src={photo1} 
                         alt="Photo 1" 
                         style={photoStyle} 
                         sx={photoHeight} 
@@ -39,7 +44,7 @@ export default function PhotoGallery() {
                 <Grid item xs={6}>
                     <Box 
                         component="img" 
-                        src="../assets/photo4.jpg" 
+                        src={photo4}
                         alt="Photo 4" 
                         style={photoStyle} 
                         sx={photoHeight}
@@ -50,7 +55,7 @@ export default function PhotoGallery() {
                 <Grid item xs={12}>
                     <Box 
                         component="img" 
-                        src="../assets/mainphoto.jpg" 
+                        src={mainPhoto}
                         alt="Main Photo" 
                         style={photoStyle} 
                         sx={photoHeight}
@@ -61,7 +66,7 @@ export default function PhotoGallery() {
                 <Grid item xs={6}>
                     <Box 
                         component="img" 
-                        src="../assets/photo3.jpg" 
+                        src={photo3}
                         alt="Photo 3" 
                         style={photoStyle} 
                         sx={photoHeight}
@@ -70,7 +75,7 @@ export default function PhotoGallery() {
                 <Grid item xs={6}>
                     <Box 
                         component="img" 
-                        src="../assets/photo2.jpg"
+                        src={photo2}
                         alt="Photo 2" 
                         style={photoStyle} 
                         sx={photoHeight}

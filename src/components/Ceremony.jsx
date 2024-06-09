@@ -1,4 +1,5 @@
 import { Box, Button, Divider } from "@mui/material";
+import rings from "../assets/rings.png";
 
 export default function Ceremony() {
     
@@ -9,13 +10,14 @@ export default function Ceremony() {
         paddingRight: 25,
         paddingTop: 10,
         paddingBottom: 10,
-        fontFamily: "nexaextralight"
+        fontFamily: "nexaextralight",
+        fontWeight: 'bold'
     }
 
     return(
         <>
             <Box className="rings-icon-container">
-                <img className="rings" src="../assets/rings.png" />
+                <img className="rings" src={rings} />
             </Box>
             <br />
             <p className="ceremony-title">BODA CIVIL</p>
