@@ -64,6 +64,7 @@ p {
 .introduction-title {
   font-family: "josephsophia";
   font-size: 3em;
+  text-align: center;
 }
 .introduction-desc {
   text-align: center;
@@ -111,6 +112,10 @@ p {
 .ceremony-title {
   font-family: "nexaheavy";
   font-size: 1.8em;
+  text-align: center;
+}
+.ceremony-desc {
+  text-align: center;
 }
 .ceremony-details-container {
   display: flex;
