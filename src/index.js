@@ -5,12 +5,14 @@ import './fonts/josephsophia.ttf'
 import './fonts/nexaheavy.ttf'
 import './fonts/nexaextralight.ttf'
 import './fonts/antaradistance.ttf'
-import './fonts/miltononebold.otf'
+import './fonts/miltononebold.tf'
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-   <App />
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   </>
 );
