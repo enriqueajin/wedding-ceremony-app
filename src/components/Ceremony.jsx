@@ -22,9 +22,9 @@ export default function Ceremony() {
             <br />
             <p className="ceremony-title">BODA CIVIL</p>
             <br />
-            <p>Pizza Vesuvio Cayalá</p>
+            <p className="ceremony-desc">Pizza Vesuvio Cayalá</p>
             <br />
-            <p>Te esperamos</p>
+            <p className="ceremony-desc">Te esperamos</p>
             <br />
             <br />
             <Box className="ceremony-details-container">
