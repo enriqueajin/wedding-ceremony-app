@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/civil/static/css/main.01e75e1c.css",
+    "main.js": "/civil/static/js/main.6623a80c.js",
+    "static/media/photo2.jpg": "/civil/static/media/photo2.f0878254fb1498b7abbe.jpg",
+    "static/media/header.jpg": "/civil/static/media/header.652092934caee33d466e.jpg",
+    "static/media/photo1.jpg": "/civil/static/media/photo1.27b5dfed5fb69ba9fb9b.jpg",
+    "static/media/mainphoto.jpg": "/civil/static/media/mainphoto.41a8faef226c0f5d8c87.jpg",
+    "static/media/photo3.jpg": "/civil/static/media/photo3.4e75d334a669faa855e2.jpg",
+    "static/media/photo4.jpg": "/civil/static/media/photo4.551be561d32a85af7aa7.jpg",
+    "static/media/bg-desktop.jpg": "/civil/static/media/bg-desktop.412cf6a73ea0568a1b7c.jpg",
+    "static/media/bg-tablet.jpg": "/civil/static/media/bg-tablet.524bf54b0e08cdf71360.jpg",
+    "static/media/bg-mobile.jpg": "/civil/static/media/bg-mobile.35be229f1425d4dc4659.jpg",
+    "static/media/josephsophia.ttf": "/civil/static/media/josephsophia.1199d36d0006c7d032a0.ttf",
+    "static/media/nexaheavy.ttf": "/civil/static/media/nexaheavy.13e16a1c3c48dd492fa9.ttf",
+    "static/media/nexaextralight.ttf": "/civil/static/media/nexaextralight.2e3441a81090afda5785.ttf",
+    "static/media/miltononebold.otf": "/civil/static/media/miltononebold.65bd11baf800e55af407.otf",
+    "static/media/rings.png": "/civil/static/media/rings.f0601f40c2eecf983e15.png",
+    "static/media/antaradistance.ttf": "/civil/static/media/antaradistance.598e223c3660715f0838.ttf",
+    "static/media/dresscode.png": "/civil/static/media/dresscode.c904b5958d290d81210b.png",
+    "index.html": "/civil/index.html",
+    "main.01e75e1c.css.map": "/civil/static/css/main.01e75e1c.css.map",
+    "main.6623a80c.js.map": "/civil/static/js/main.6623a80c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01e75e1c.css",
+    "static/js/main.6623a80c.js"
+  ]
+}
