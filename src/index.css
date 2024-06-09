@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "josephsophia";
+  src: local("josephsophia"),
+   url("./fonts/josephsophia.ttf") format("truetype");
+  font-weight: normal;
+ }
+ @font-face {
+  font-family: "nexaheavy";
+  src: local("nexaheavy"),
+   url("./fonts/nexaheavy.ttf") format("truetype");
+  font-weight: normal;
+ }
+ @font-face {
+  font-family: "nexaextralight";
+  src: local("nexaextralight"),
+   url("./fonts/nexaextralight.ttf") format("truetype");
+  font-weight: normal;
+ }
+ @font-face {
+  font-family: "antaradistance";
+  src: local("antaradistance"),
+   url("./fonts/antaradistance.ttf") format("truetype");
+  font-weight: normal;
+ }
+ @font-face {
+  font-family: "miltononebold";
+  src: local("miltononebold"),
+   url("./fonts/miltononebold.otf") format("truetype");
+  font-weight: normal;
+ }

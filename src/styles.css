@@ -1,0 +1,199 @@
+:root {
+  --yellow: #fcd49f;
+  --olive-gree: #8c9c6d;
+  --light-gray: #E6E6E6;
+}
+
+/* Default p configuration */
+p {
+  margin:0;
+  font-size: 1.1em;
+}
+
+/* Parent container */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    overflow-y: scroll;
+}
+/* Header section */
+.header-container {
+    width: 100%;
+    /* height: 500px; */
+    background: url("./assets/header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+.main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* height: 350px; */
+  margin-top: 50px;
+  color: white;
+  font-family: "josephsophia";
+}
+.our-wedding {
+  font-size: 3.5em;
+}
+.spouses-names {
+  font-size: 1.5em;
+}
+.arrow-down {
+  size: 30px;
+}
+.arrow-icon-container {
+  width: 30px;
+  height: 30px;
+}
+.arrow-down {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Introduction section */
+.introduction-title {
+  font-family: "josephsophia";
+  font-size: 3em;
+}
+.introduction-desc {
+  text-align: center;
+  line-height: 25px;
+}
+.introduction-verse {
+  font-style: italic;
+}
+
+/* CountDown Timer section */
+.time-unit-container {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.time-unit-label {
+  font-size: 0.6em;
+}
+.count-down-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Ceremony section */
+.rings-icon-container {
+  width: 90px;
+  height: 90px;
+}
+.rings {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ceremony-title {
+  font-family: "nexaheavy";
+  font-size: 1.8em;
+}
+.ceremony-details-container {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  font-family: "nexaextralight";
+}
+.ceremony-date {
+  padding: 30px 0;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+.ceremony-time-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.ceremony-time {
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+.ceremony-time-suffix {
+  color: darkgray;
+  font-weight: 600;
+}
+.ceremony-address {
+  text-align: center;
+  padding: 0 25px;
+  line-height: 25px;
+}
+.ceremony-button {
+  background-color: var(--olive-gree);
+  font-family: "josephsophia";
+}
+
+/* DressCode section */
+.dresscode-icon-container {
+  width: 90px;
+  height: 90px;
+}
+.dresscode {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dresscode-text {
+  text-align: center;
+  padding: 0 25px;
+}
+
+/* Attendance section */
+.attendance-title {
+  font-family: "nexaheavy";
+  font-size: 1.8em;
+  padding: 0 25px;
+  text-align: center;
+}
+.attendance-desc {
+  padding: 0 50px;
+  text-align: center;
+  line-height: 25px;
+}
+.attendance-validity-container {
+  display: flex;
+}
+.validity-text {
+  font-family: "nexaheavy";
+  font-size: 1.3em;
+  text-align: center;
+}
+.attendance-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-title {
+  font-family: "antaradistance";
+  font-size: 3.5em;
+  text-align: center;
+}
+.footer-desc {
+  font-family: "miltononebold";
+  font-size: 3em;
+  text-align: center;
+}
