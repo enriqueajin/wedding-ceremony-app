@@ -90,7 +90,8 @@ const Attendance = (props) => {
         paddingRight: 25,
         paddingTop: 10,
         paddingBottom: 10,
-        fontFamily: "nexaextralight"
+        fontFamily: "nexaextralight",
+        fontWeight: 'bold'
     }
 
     const getGuestsQuantityList = guests => {
@@ -167,6 +168,14 @@ const Attendance = (props) => {
         return true;
     }
 
+    const dividerWidth = {
+        width: {
+            xs: '100px', 
+            sm: '150px', 
+            md: '200px'
+        }
+    }
+
     return(
         <>
             <p className="attendance-title ">CONFIRMAR ASISTENCIA</p>
@@ -174,7 +183,9 @@ const Attendance = (props) => {
             <p className="attendance-desc">Rogamos tu confirmación antes del 31 de julio.</p>
             <br />
             <br />
-            <Divider orientation="horizontal" variant="li" flexItem sx={{marginLeft: 15, marginRight: 15}} />
+            <Box>
+                <Divider orientation="horizontal" variant="li" flexItem sx={dividerWidth} />
+            </Box>
             <br />
             <Box className="attendance-validity-container">
                 <p className="validity-text">VÁLIDO PARA&nbsp;</p>
@@ -182,7 +193,9 @@ const Attendance = (props) => {
                 <p className="validity-text">&nbsp;INVITADOS</p>
             </Box>
             <br />
-            <Divider orientation="horizontal" variant="li" flexItem sx={{marginLeft: 15, marginRight: 15}} />
+            <Box>
+                <Divider orientation="horizontal" variant="li" flexItem sx={dividerWidth} />
+            </Box>
             <br />
             <br />
 
@@ -290,6 +303,10 @@ const Attendance = (props) => {
                 onClick={handleLoadingEnd}>
                 <CircularProgress color="inherit" />
             </Backdrop>
+            <br />
+            <br />
+            <br />
+            <br />
         </>
     )
 }

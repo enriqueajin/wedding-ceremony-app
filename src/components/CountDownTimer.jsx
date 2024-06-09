@@ -12,10 +12,10 @@ export default function CountDownTimer() {
     });
 
     const getTimeUnits = () => {
-        // Wedding date: August 25th, 2024 at 17:30
-        const weddingDateTime = new Date(2024, 7, 25, 17, 30)
-        const currentTime = new Date()
-        const diff = weddingDateTime - currentTime
+        // Wedding date: August 25th, 2024 at 13:30
+        const weddingDateTime = new Date(Date.UTC(2024, 7, 25, 13, 30));
+        const currentTime = new Date();
+        const diff = weddingDateTime - currentTime;
 
         // Calculate time units
         const days = Math.floor(diff / 1000 / 60 / 60 / 24);

@@ -1,10 +1,11 @@
 import { Box } from "@mui/material";
+import dresscodeIcon from "../assets/dresscode.png";
 
 export default function DressCode() {
     return (
         <>
             <Box className="dresscode-icon-container">
-                <img className="dresscode" src="../assets/dresscode.png" />
+                <img className="dresscode" src={dresscodeIcon} />
             </Box>
             <br />
             <p className="ceremony-title">DRESSCODE</p>

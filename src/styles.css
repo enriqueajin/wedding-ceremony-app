@@ -17,7 +17,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./../public/assets/bg-mobile.jpg");
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
@@ -27,7 +26,7 @@ p {
 .header-container {
     width: 100%;
     /* height: 500px; */
-    background: url("../public/assets/header.jpg");
+    background: url("./assets/header.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -68,8 +67,6 @@ p {
 }
 .introduction-desc {
   text-align: center;
-  padding-left: 25px;
-  padding-right: 25px;
   line-height: 25px;
 }
 .introduction-verse {
@@ -98,6 +95,7 @@ p {
 }
 .count-down-container {
   display: flex;
+  justify-content: center;
 }
 
 /* Ceremony section */
@@ -188,4 +186,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.footer-title {
+  font-family: "antaradistance";
+  font-size: 3.5em;
+  text-align: center;
+}
+.footer-desc {
+  font-family: "miltononebold";
+  font-size: 3em;
+  text-align: center;
 }
