@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-ceremony-app/static/css/main.750b11ac.css",
-    "main.js": "/wedding-ceremony-app/static/js/main.606ca24e.js",
+    "main.css": "/wedding-ceremony-app/static/css/main.cf7ebc5b.css",
+    "main.js": "/wedding-ceremony-app/static/js/main.f6c41818.js",
     "static/media/photo2.jpg": "/wedding-ceremony-app/static/media/photo2.f0878254fb1498b7abbe.jpg",
     "static/media/header.jpg": "/wedding-ceremony-app/static/media/header.652092934caee33d466e.jpg",
     "static/media/photo1.jpg": "/wedding-ceremony-app/static/media/photo1.27b5dfed5fb69ba9fb9b.jpg",
@@ -19,11 +19,11 @@
     "static/media/antaradistance.ttf": "/wedding-ceremony-app/static/media/antaradistance.598e223c3660715f0838.ttf",
     "static/media/dresscode.png": "/wedding-ceremony-app/static/media/dresscode.c904b5958d290d81210b.png",
     "index.html": "/wedding-ceremony-app/index.html",
-    "main.750b11ac.css.map": "/wedding-ceremony-app/static/css/main.750b11ac.css.map",
-    "main.606ca24e.js.map": "/wedding-ceremony-app/static/js/main.606ca24e.js.map"
+    "main.cf7ebc5b.css.map": "/wedding-ceremony-app/static/css/main.cf7ebc5b.css.map",
+    "main.f6c41818.js.map": "/wedding-ceremony-app/static/js/main.f6c41818.js.map"
   },
   "entrypoints": [
-    "static/css/main.750b11ac.css",
-    "static/js/main.606ca24e.js"
+    "static/css/main.cf7ebc5b.css",
+    "static/js/main.f6c41818.js"
   ]
 }
